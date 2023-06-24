@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Distinct Subsequences</title>
+</head>
+<body>
+    <h1>Distinct Subsequences</h1>
+    <form method="POST" action="/">
+        <label for="s">S:</label>
+        <input type="text" id="s" name="s" required value="{{ S }}"><br><br>
+
+        <label for="t">T:</label>
+        <input type="text" id="t" name="t" required value="{{ T }}"><br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+
+    {% if result is not none %}
+    <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
