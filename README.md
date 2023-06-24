@@ -47,3 +47,7 @@ It is required to take your solution from homework #1, add GUI to it (I recommen
 ![E2E:UI Test Screenshot](https://github.com/rafihayla/Quality-Assurance-HITS-972006-Arifa-Muhammad-Rafi-Hayla/assets/74056954/f3fe0943-3474-41bb-8700-7fb0492a35a7)
 
 </p> 
+
+### NOTE
+1. For unit test, you can access the branch `unit-test`.
+2. For E2E/UI test, you can access the branch `e2e/ui-test`.
