@@ -1,20 +1,21 @@
-from functools import cache
+# https://leetcode.com/problems/distinct-subsequences/solutions/1472969/python-bottom-up-dp-explained/
 
 class Solution:
-    def numDistinct(self, s: str, t: str) -> int:
-        @cache
-        def dp(i, j) -> int:
-            if j == len(t):
-                return 1
-            if i == len(s):
-                return 0
-            
-            res = dp(i + 1, j)
-            if s[i] == t[j]:
-                res += dp( i+1, j+1 )
-            return res
+    def numDistinct(self, s, t):
+        m = len(s)
+        n = len(t)
+        dp = [[0] * (n+1) for _ in range(m+1)]
         
-        return dp(0, 0)
+        for i in range(m+1):
+            dp[i][0] = 1
+        
+        for i in range(1, m+1):
+            for j in range(1, n+1):
+                dp[i][j] += dp[i-1][j] 			#if current character is skipped
+                if s[i-1] == t[j-1]:
+                    dp[i][j] += dp[i-1][j-1]	#if current character is used
+        
+        return dp[-1][-1]
 
 if __name__ == "__main__":
     S = "rabbbit"
