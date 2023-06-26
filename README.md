@@ -18,7 +18,9 @@ The test cases are generated so that the answer fits on a 32-bit signed integer.
 <p align=center
 
 
-[Click here to see checkout the problem](https://pages.github.com/](https://leetcode.com/problems/distinct-subsequences/)https://leetcode.com/problems/distinct-subsequences/)
+[Click here to checkout the problem](https://pages.github.com/](https://leetcode.com/problems/distinct-subsequences/)https://leetcode.com/problems/distinct-subsequences/) <br>
+[Click here to checkout the solution took from leetcode](https://leetcode.com/problems/distinct-subsequences/solutions/1472969/python-bottom-up-dp-explained/)
+
 
 </p> 
 
@@ -28,12 +30,12 @@ Cover the solution of the problem by unit-tests, using testing techniques and ta
 Publish the solution code, tests and all other artifacts in the git repository.
 <br>
 
-
 **Result** <br>
 
-<p align=center
+<p align=center>
+
   
-![Unit Test Screenshot](https://github.com/rafihayla/Quality-Assurance-HITS-972006-Arifa-Muhammad-Rafi-Hayla/assets/74056954/5e09c160-4336-4a0c-ad22-3fa7f46bfe34)
+<img width="1040" alt="Unit Test Screenshot" src="https://github.com/rafihayla/Quality-Assurance-HITS-972006-Arifa-Muhammad-Rafi-Hayla/assets/74056954/53350ad7-9754-43ad-8b1d-57b5f8a204fe">
 
 </p> 
 
